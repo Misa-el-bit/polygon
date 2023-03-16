@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .navbar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+header .navbar .navbar-brand {
+  font-weight: bold;
+}
+
+main .hero {
+  margin-top: 5rem;
+  height: 85vh;
+}
+main .title-hero {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+}
+main .img-container .card {
+  border: none;
+}
+main .img-container .card .card-text {
+  color: gray;
+}
+
+.form-container {
+  background-color: #FBFBFB;
+}
+.form-container p {
+  margin: 0;
+}
+.form-container .btn {
+  width: 100%;
+  background-color: white;
+}
+
+.text-container .us {
+  font-weight: bold;
+}
+.text-container .description {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
